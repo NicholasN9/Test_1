@@ -1,4 +1,4 @@
-# SocialSync - Anime Content Manager
+# SocialSync - Content Manager
 
 A professional Next.js application for managing and scheduling anime-related social media content across multiple platforms.
 
