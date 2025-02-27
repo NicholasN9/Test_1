@@ -1,15 +1,40 @@
-# Ansh & Riley Full-Stack Template
+# SocialSync - Anime Content Manager
 
-This is a full-stack template project for Software Composers to create  applications with AI.
+A professional Next.js application for managing and scheduling anime-related social media content across multiple platforms.
 
-## Getting started
-To create a new project, you go to `/paths`, choose from our list of Paths, and then use Cursor's Composer feature to quickly scaffold your project!
+## Features
 
-You can also edit the Path's prompt template to be whatever you like!
+- 🎨 Modern, responsive UI with dark mode support
+- 📱 Cross-platform social media posting
+- 🏷️ Smart hashtag generation
+- 📸 Image and video upload support
+- 🎭 Anime-inspired design elements
+- 🌙 Dark/Light theme toggle
 
-## Technologies used
-This doesn't really matter, but is useful for the AI to understand more about this project. We are using the following technologies
-- React with Next.js 14 App Router
-- TailwindCSS
-- Firebase Auth, Storage, and Database
-- Multiple AI endpoints including OpenAI, Anthropic, and Replicate using Vercel's AI SDK
+## Tech Stack
+
+- Next.js 14 with App Router
+- TypeScript
+- Tailwind CSS
+- Node-fetch & Cheerio for hashtag generation
+
+## Getting Started
+
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
+
+## Environment Variables
+
+Create a `.env.local` file in the root directory with the following variables:
+
+```env
+# Add any required API keys here
+```
